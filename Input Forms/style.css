@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: orange;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+form{
+    margin-top: 50px      ;
+}
+
+input{
+    flex: auto;
+}
+
+body{
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 2em;
+}
+
+div{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    width: 70%;
+    margin: 0 auto;
+}
+
+label{
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+
+span{
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
